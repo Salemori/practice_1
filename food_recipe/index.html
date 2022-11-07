@@ -1,67 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Favourite Meal</title>
-  </head>
-  <body>
-    <h1>Welcome My Recipe Page</h1>
 
-    <section>
-      <h3>About My Favorite Food</h3>
-      <p>
-        My fabvorite meal is <strong>Jollof Rice</strong> a popular West-African
-        dish <br />
-        Jollof rice is one of the most popular foods in West Africa, although
-        the ingredients <br />
-        and methods of preparation vary from location to region, the dish is
-        often made in a single <br />
-        pot with long-grain rice, tomatoes, onions, spices, vegetables, and
-        meat.
-      </p>
-      <h5>Origin</h5>
-      <p>
-        The origins of jollof rice can be traced to the Senegambian region that
-        was ruled by the Wolof or <br />
-        Jolof Empire in the 14th century, spanning parts of today's Senegal, The
-        Gambia and Mauritania, <br />
-        where rice was grown. The dish has its roots in a traditional dish
-        called thieboudienne, containing <br />
-        rice, fish, shellfish and vegetables. <br />
-        Food and agriculture historian James C. McCann <br>
-        considers this claim plausible given the popularity of rice in the upper Niger <br>
-        valley, but considers it unlikely that the dish could have spread from Senegal <br>
-        to its current range since such a diffusion is not seen in "linguistic, historical or political patterns".
-      </p>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Favourite Meal</title>
+  <style>
+    .card {
+      border: 5px solid black;
+      width: 300px;
+      padding: 12px;
+      border-radius: 15px;
+      background: purple;
+    }
+  </style>
+</head>
 
-        <ul type="none">
-        <table width="50%" border="3" cellpadding="0" cellspacing="0">
-        <tr>
-        <td><h2>List Header</h2></td>
-        <td><h2>List Header</h2></td>
-        <td><h2>List Header</h2></td>
-        </tr>
-        <tr>
-        <td height="29"><li><a href="itemone.html">Garri</a></li></td>
-        <td height="29"><li><a href="itemone.html">One cup</a></li></td>
-        <td height="29"><li><a href="itemone.html">Item One</a></li></td>
-        </tr>
-        <tr>
-        <td height="29"><li><a href="itemtwo.html">Item Two</a></li></td>
-        <td height="29"><li><a href="itemtwo.html">Item Two</a></li></td>
-        <td height="29"><li><a href="itemtwo.html">Item Two</a></li></td>
-        </tr>
-        <tr>
-        <td height="29"><li><a href="itemthree.html">Item Three</a></li></td>
-        <td height="29"><li><a href="itemthree.html">Item Three</a></li></td>
-        <td height="29"><li><a href="itemthree.html">Item Three</a></li></td>
-        </tr>
-        <tr>
-        </table>
-        </ul>
-        </div>
-  </body>
+<body>
+  <h1>Welcome My Recipe Page</h1>
+
+  <h3>About My Favorite Food</h3>
+  <p>
+    My fabvorite meal is <strong>Jollof Rice</strong> a popular West-African
+    dish <br />
+    Jollof rice is one of the most popular foods in West Africa, although
+    the ingredients <br />
+    and methods of preparation vary from location to region, the dish is
+    often made in a single <br />
+    pot with long-grain rice, tomatoes, onions, spices, vegetables, and
+    meat.
+  </p>
+  <br>
+  <h5>Origin</h5>
+  <p>
+    The origins of jollof rice can be traced to the Senegambian region that
+    was ruled by the Wolof or <br />
+    Jolof Empire in the 14th century, spanning parts of today's Senegal, The
+    Gambia and Mauritania, <br />
+    where rice was grown. The dish has its roots in a traditional dish
+    called thieboudienne, containing <br />
+    rice, fish, shellfish and vegetables. <br />
+    Food and agriculture historian James C. McCann <br>
+    considers this claim plausible given the popularity of rice in the upper Niger <br>
+    valley, but considers it unlikely that the dish could have spread from Senegal <br>
+    to its current range since such a diffusion is not seen in "linguistic, historical or political patterns".
+  </p><br>
+
+  <!-- <ul>
+    <table width="50%" border="3" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <h2>Ingredients</h2>
+        </td>
+        <td>
+          <h2>Measurements</h2>
+        </td>
+      </tr>
+      <tr>
+        <td height="29">
+          <li> long grain parboiled rice</li>
+        </td>
+        <td height="29">3¾ cups (750g)</td>
+      </tr>
+      <tr>
+        <td height="29">
+          <li>onions</li>
+        </td>
+        <td height="29">2 medium</td>
+      </tr>
+      <tr>
+        <td height="29">
+          <li>thyme</li>
+        </td>
+        <td height="29">2 teaspoons</td>
+      </tr>
+      <tr>
+        <td height="29">
+          <li>curry powder</li>
+        </td>
+        <td height="29">2 teaspoons</td>
+      </tr>
+      <tr>
+        <td height="29">
+          <li>Pepper and salt</li>
+        </td>
+        <td height="29"> (to taste)</td>
+      </tr>
+      <tr>
+        <td height="29">
+          <li>Tomato Stew</li>
+        </td>
+        <td height="29">2to 3 cups</td>
+      </tr>
+    </table>
+  </ul> -->
+
+
+  <table width="50%" border="1" cellpadding="0" cellspacing="0">
+    <thead>
+      <tr>
+        <th>
+          &nbsp;
+          <ul type="none">
+            <li>Ingredients</li>
+          </ul>
+          &nbsp;
+        </th>
+        <th>
+          &nbsp;
+          <ul type="none">
+            <li>Measurements</li>
+          </ul>
+          &nbsp;
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+        <td>
+          &nbsp;
+          <ol>
+            <li>Item 1</li>
+          </ol>
+          &nbsp;
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+
+
+  <!-- <table class="contenttable">
+          <tbody>
+            <tr>
+              <td>
+                <p>List</p>
+              </td>
+              <td>
+                 &nbsp;
+                <ol> 
+                  <li>Item 1</li>
+                  <li>Item 2</li>
+                  <li>Item 3</li>
+                </ol>
+                &nbsp;
+              </td>
+            </tr>
+          </tbody>
+        </table> -->
+
+  </div>
+  <h3>Steps To Prepare The Meal</h3>
+  <ul>
+    &nbsp;
+    <li>Wash the rice in cold water (optional) and place in a pot.</li>
+    <li>Add some water, about twice the level of the rice.</li>
+    <li>Set on the stove and leave to cook.</li>
+    <li>Note when the water starts boiling and leave to cook for more 5 minutes.</li>
+    <li>Pour the contents of the pot in a sieve.</li>
+    <li>Place the sieve (with the rice) in a bowl of cold water.</li>
+    <li>Rince the rice and change the water if necessary.</li>
+    <li>Leave in the sieve to drain off all the water.</li>
+    <li>The rice is now ready to be cooked again.</li>
+    &nbsp;
+  </ul>
+  <br><br><br>
+  <div class="card">
+    <img src="./images/image_1.jpg" alt="jollof rice" width="300" height="300">
+  </div>
+  <br>
+  <br>
+  <div class="card">
+    <img src="./images/image_7.jpg" alt="jollof rice" width="300" height="300">
+  </div>
+  <br>
+  <br>
+  <div class="card">
+    <img src="./images/image_9.webp" alt="jollof rice" width="300" height="300">
+  </div>
+  <br>
+  <br>
+  <div class="card">
+    <img src="./images/image_6.webp" alt="jollof rice" width="300" height="300">
+  </div>
+</body>
 </html>
