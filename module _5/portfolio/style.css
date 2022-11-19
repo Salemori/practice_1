@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+/* body{
+    margin: auto;
+    padding: 0 auto;
+} */
+
+.main_body{
+    border: 2px solid skyblue;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    background: skyblue;
+}
+
+.container{
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    background: lightgray;
+    padding: 2rem;
+}
+
+.nav_container a{
+    position: relative;
+    left: 68%;
+}
+
+.logo{
+    width: 1.5rem;
+    /* height: 10rem; */
+}
+
+    
+.profile_image{
+    width: 10rem;
+    height: 10rem;
+}
+
+.another_div{
+    margin: 8rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.image_div{
+  float: left;
+}
+
+.move{
+    clear: left;
+}
