@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Clone</title>
 </head>
+
 <body>
     <main>
-        <div>
-            <div>
-                <img src="./image/svgexport-1.svg" alt="logo">
-                <button>Sign In</button>
-            </div>
-            <div>
-                <h2>Unlimited movies, TV shows, and more.</h2>
-                <p>Watch anwhere. Cancel anytime.</p>
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="hero_div">
+            <div class="div_overlay">
+            
+                <div class="padding">
+                    <img src="./image/svgexport-1.svg" alt="logo"><button class="hero_button" id="sign_in">Sign In</button>
+                </div>
                 
+            
+                <div class="hero_content">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <p id="hero_paragraph">Watch anwhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <input type="text" placeholder="Email address" class="input_email">
+                <button class="hero_button">Get Started &gt;</button>
             </div>
-            <div>
-                  <label for=""><input type="text" placeholder="Email address"></label> 
-                  <button></button> 
-            </div>
+        </div>
         </div>
         <div>
             <h2>Enjoy on your TV.</h2>
@@ -31,8 +35,8 @@
         </div>
         <div>
             <img src="" alt="">
-           <h2>Download your shows to watch offline.</h2>
-           <p>Save your favorites easily and always have something to watch.</p>
+            <h2>Download your shows to watch offline.</h2>
+            <p>Save your favorites easily and always have something to watch.</p>
         </div>
         <div>
             <h2>Watch everywhere.</h2>
@@ -41,10 +45,11 @@
         <div>
             <img src="" alt="">
             <h2>Create profiles for kids.</h2>
-            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+            <p>Send kids on adventures with their favorite characters in a space made just for them—free with your
+                membership.</p>
         </div>
         <div>
-            <h1>>Frequently Asked Questions</h1>
+            <h2>Frequently Asked Questions</h2>
             <div>
                 <span>What is Netflix?</span><img src="" alt="">
             </div>
@@ -65,42 +70,38 @@
             </div>
             <!-- <label for=""><input type="sele"></label> -->
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <input type="email" placeholder="Email address">
-            <button>Get Started &gt;</button>
-
-            <div>
-                <div>
-                    <p>Questions Contact us.</p>
-                </div>
-                <div>
-                    <p>FAQ</p>
-                    <p>Media Center</p>
-                    <p>Ways to Watch</p>
-                    <p>Cookie Preferences</p>
-                    <p>Speed Test</p>
-                </div>
-                <div>
-                    <p>Help Center</p>
-                    <p>Investor Relations</p>
-                    <p>Terms of Use</p>
-                    <p>Corporate Information</p>
-                    <p>Legal Nitices</p>
-                </div>
-                <div>
-                    <p>Account</p>
-                    <p>Jobs</p>
-                    <p>Privacy</p>
-                    <p>Contact Us</p>
-                    <p>Only on Netflix</p>
-                </div>
-                <p>Netflix Nigeria</p>
-            </div>
+            <input type="email" placeholder="Email address" class="input_email">
+            <button class="hero_button">Get Started &gt;</button>
         </div>
-
-
-
-
+        <div>
+            <div>
+                <p>Questions Contact us.</p>
+            </div>
+            <div>
+                <p>FAQ</p>
+                <p>Media Center</p>
+                <p>Ways to Watch</p>
+                <p>Cookie Preferences</p>
+                <p>Speed Test</p>
+            </div>
+            <div>
+                <p>Help Center</p>
+                <p>Investor Relations</p>
+                <p>Terms of Use</p>
+                <p>Corporate Information</p>
+                <p>Legal Nitices</p>
+            </div>
+            <div>
+                <p>Account</p>
+                <p>Jobs</p>
+                <p>Privacy</p>
+                <p>Contact Us</p>
+                <p>Only on Netflix</p>
+            </div>
+            <p>Netflix Nigeria</p>
+        </div>
 
     </main>
 </body>
+
 </html>
