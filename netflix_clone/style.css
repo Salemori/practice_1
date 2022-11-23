@@ -76,6 +76,13 @@ div h2{
     font-weight:700;
 }
 
+#get_started{
+    font-weight: 500px;
+    /* position: absolute; */
+    margin-left: -225px;
+
+    
+}
 .hero_button{
     background: rgba(255, 0, 0, 0.849);
     border: 0.5px solid  rgba(255, 0, 0, 0);
@@ -83,10 +90,16 @@ div h2{
     color: white;
     text-align: center;
     font-size: 25px;
-    font-weight: 500px;
-    padding: 10px;
+    width: 12rem;
+    padding: 14px;
     position: absolute;
 }
+
+
+
+/* .hero_button div{
+    margin: 0 auto;
+} */
 
 #sign_in{
     font-size: 18px;
@@ -116,13 +129,87 @@ div h2{
     text-align: center;
     font-size: 25px;
     font-weight: 500px;
-    padding: 10px;
+    padding: 14px;
+    width: 33rem;
+    margin-right: 14rem;
+    /* margin-left: 10rem */
 }
 
+input::placeholder {
+    font-size: 16px;
+    opacity: 0.8;
+    text-align: left;
+    /* font-weight: 100; */
+    padding: 5px;
+  
+}
+
+.section_div{
+    background: black;
+    border-top: 3px solid rgba(169, 169, 169, 0.89);
+    /* height: 50%; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: -50rem; */
+    /* padding-top: 20rem; */
+    /* padding: rem; */
+    /* width: 50%; */
+    position: relative;
+
+}
+
+.heading_two{
+    width: 600px;
+    text-align: left;
+    font-size: 50px;
+    font-weight:600;
+    /* position: absolute; */
+    /* margin-bottom: 15px; */
+}
+
+#download{
+    width: 550px;
+}
+
+.text{
+    width: 600px;
+    text-align: left;
+    font-size: 30px;
+    font-weight:400;
+    /* position: absolute; */
+    /* position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -80%);
+    color: white; */
+    
+}
+
+.text_content{
+    padding-top: 8rem;
+    padding-left: 4rem;
+
+}
+
+/* #tv_position{
+    position: relative;
+} */
+
+.tv_image{
+    padding-right: -200em;
+    width: 35rem;
+    /* position: absolute; */
+    /* margin-right: -50rem; */
+    
+    /* position: absolute;
+    bottom:  -10px; */
+}
 /* .hero_content {
    
     position: absolute;
-    
+
     
 } */
 
