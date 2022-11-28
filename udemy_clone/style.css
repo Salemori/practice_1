@@ -278,11 +278,31 @@ p {
   width: 18rem;
 }
 
-.category {
+.category_cover {
   margin: 5rem 0rem;
   border: 1px solid hsl(0, 6%, 94%);
   background: hsl(0, 6%, 94%);
   height: 28rem;
+  padding: 6rem 6rem;
+}
+
+.category h4{
+    font-size: 1.1rem;
+  }
+.category_cover h3{
+  font-size: 2rem;
+  margin-top: -3rem;
+  margin-bottom: 1.5rem;
+}
+
+.category_cover button{
+  background: hsl(0, 6%, 94%);
+  border: 1px solid black;
+  color: black;
+  width: 10rem;
+  height: 2.5rem;
+  font-weight: 700;
+
 }
 
 .social_cover{
@@ -352,7 +372,7 @@ p {
   position: relative;
 }
 
-.footer_section {
+.footer_section, .category {
   display: flex;
   flex-direction: row;
   align-content: space-between;
@@ -430,3 +450,5 @@ p {
   padding: 0rem 12rem;
 
 } */
+
+
