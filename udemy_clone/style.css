@@ -127,6 +127,27 @@ p {
   margin-bottom: 1rem;
 }
 
+.python_all{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: left;
+  column-gap: 2rem;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  
+}
+
+.python_all a{
+  text-decoration: none;
+  color: rgb(126, 122, 122);
+}
+
+.python_all a:hover{
+  color: black;
+}
+
 
 
 /* carousel_1 section */
@@ -396,6 +417,8 @@ p {
   /* vertical-align: middle; */
 
 }
+
+
 
 .footer_button img{
   width: 20px;
